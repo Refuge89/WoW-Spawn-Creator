@@ -189,6 +189,7 @@
     <None Include="Resources\socket-prismatic.gif" />
     <None Include="Resources\socket-red.gif" />
     <None Include="Resources\socket-yellow.gif" />
+    <None Include="Resources\overwatch___blackwatch_mercy_by_animatedanarchist-dbgb21u.jpg" />
     <Content Include="spawncreator_icon.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
