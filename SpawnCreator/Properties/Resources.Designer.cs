@@ -133,26 +133,6 @@ namespace SpawnCreator.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap line_divider {
-            get {
-                object obj = ResourceManager.GetObject("line_divider", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap overwatch___blackwatch_mercy_by_animatedanarchist_dbgb21u {
-            get {
-                object obj = ResourceManager.GetObject("overwatch___blackwatch_mercy_by_animatedanarchist-dbgb21u", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap SindoreiW650 {
             get {
                 object obj = ResourceManager.GetObject("SindoreiW650", resourceCulture);

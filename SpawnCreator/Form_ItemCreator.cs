@@ -29,6 +29,13 @@ namespace SpawnCreator
             }
         }
 
+        private void PaintBorderlessGroupBox(object sender, PaintEventArgs p)
+        {
+            GroupBox box = (GroupBox)sender;
+            p.Graphics.Clear(Color.FromArgb(41, 53, 65));
+            p.Graphics.DrawString(box.Text, box.Font, Brushes.CornflowerBlue, 0, 0);
+        }
+
         // Used to get values from SocketBonus Form
         public void GetSocketBonusData(int o_sC1, int o_sCC1, int o_sC2, int o_sCC2, int o_sC3, int o_sCC3, int o_sB)
         {
@@ -1196,7 +1203,7 @@ namespace SpawnCreator
             BuildSQLFile += textBox36.Text + ", "; // nature_res
             BuildSQLFile += textBox37.Text + ", "; // arcane_res
             BuildSQLFile += textBox38.Text + ", "; // rangedModRange
-            BuildSQLFile += comboBox20.SelectedIndex + ", "; // ammoType
+            BuildSQLFile += (comboBox20.SelectedIndex + 1) + ", "; // ammoType
             BuildSQLFile += comboBox21.SelectedIndex + ", "; // dmg_type1
             BuildSQLFile += textBox39.Text + ", "; // dmg_min1
             BuildSQLFile += textBox40.Text + ", "; // dmg_max1
@@ -1566,6 +1573,56 @@ namespace SpawnCreator
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             Process.Start("http://emucraft.com");
+        }
+
+        private void groupBox1_Paint(object sender, PaintEventArgs e)
+        {
+            PaintBorderlessGroupBox(sender, e);
+        }
+
+        private void groupBox2_Paint(object sender, PaintEventArgs e)
+        {
+            PaintBorderlessGroupBox(sender, e);
+        }
+
+        private void groupBox5_Paint(object sender, PaintEventArgs e)
+        {
+            PaintBorderlessGroupBox(sender, e);
+        }
+
+        private void groupBox7_Paint(object sender, PaintEventArgs e)
+        {
+            PaintBorderlessGroupBox(sender, e);
+        }
+
+        private void groupBox8_Paint(object sender, PaintEventArgs e)
+        {
+            PaintBorderlessGroupBox(sender, e);
+        }
+
+        private void groupBox3_Paint(object sender, PaintEventArgs e)
+        {
+            PaintBorderlessGroupBox(sender, e);
+        }
+
+        private void groupBox6_Paint(object sender, PaintEventArgs e)
+        {
+            PaintBorderlessGroupBox(sender, e);
+        }
+
+        private void groupBox9_Paint(object sender, PaintEventArgs e)
+        {
+            PaintBorderlessGroupBox(sender, e);
+        }
+
+        private void groupBox4_Paint(object sender, PaintEventArgs e)
+        {
+            PaintBorderlessGroupBox(sender, e);
+        }
+
+        private void groupBox10_Paint(object sender, PaintEventArgs e)
+        {
+            PaintBorderlessGroupBox(sender, e);
         }
     }
 }

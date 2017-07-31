@@ -1,7 +1,7 @@
 # WoW-Spawn-Creator
 
-![alt tag](http://image.prntscr.com/image/c9896d1f6c1e42ab9483b05d5be00710.png)
+![alt tag](https://image.prntscr.com/image/JFOtMZboRyOxzQG7MhA22g.jpeg)
 
 # Alpha stage for item preview tab
 
-![alt tag](http://image.prntscr.com/image/aad15270c4a84ca7b6f9003698406a60.png)
+![alt tag](https://image.prntscr.com/image/-oWn6d8FQJ6tmR55YlwoMA.jpeg)

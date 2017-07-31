@@ -112,6 +112,11 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="SaveOptionsDialog.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -161,11 +166,6 @@
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
@@ -181,7 +181,6 @@
     <None Include="Resources\beta_axe.png" />
     <None Include="Resources\56176.png" />
     <None Include="Resources\SindoreiW650.png" />
-    <None Include="Resources\line_divider.png" />
     <None Include="Resources\250px-Mage_Crest.png" />
     <None Include="Resources\chibi_spawn_by_xxthornthevamphogxx-d9fzfhb.png" />
     <None Include="Resources\Inv_misc_questionmark.png" />
@@ -189,7 +188,6 @@
     <None Include="Resources\socket-prismatic.gif" />
     <None Include="Resources\socket-red.gif" />
     <None Include="Resources\socket-yellow.gif" />
-    <None Include="Resources\overwatch___blackwatch_mercy_by_animatedanarchist-dbgb21u.jpg" />
     <Content Include="spawncreator_icon.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
