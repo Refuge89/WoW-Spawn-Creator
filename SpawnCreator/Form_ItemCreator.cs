@@ -1203,7 +1203,7 @@ namespace SpawnCreator
             BuildSQLFile += textBox36.Text + ", "; // nature_res
             BuildSQLFile += textBox37.Text + ", "; // arcane_res
             BuildSQLFile += textBox38.Text + ", "; // rangedModRange
-            BuildSQLFile += (comboBox20.SelectedIndex + 1) + ", "; // ammoType
+            BuildSQLFile += (comboBox20.SelectedIndex > 0 ? comboBox20.SelectedIndex + 1 : 0) + ", "; // ammoType
             BuildSQLFile += comboBox21.SelectedIndex + ", "; // dmg_type1
             BuildSQLFile += textBox39.Text + ", "; // dmg_min1
             BuildSQLFile += textBox40.Text + ", "; // dmg_max1
